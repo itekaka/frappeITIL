@@ -1,0 +1,64 @@
+{
+ "charts": [
+  {
+   "chart_name": "Practice Health Index",
+   "label": "Overall ITIL Practice Health Index"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"ITIL 4 Master Control Panel\",\"level\":1}},{\"type\":\"text\",\"data\":{\"text\":\"Holistic Governance Engine for 24 ITIL 4 Practices & Service Value Stream Mapping\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Value Stream Mapper\"}},{\"type\":\"header\",\"data\":{\"text\":\"Dimension 1: Organizations & People\",\"level\":2}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Organizational Change Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Knowledge Management\"}},{\"type\":\"header\",\"data\":{\"text\":\"Dimension 2: Information & Technology\",\"level\":2}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Information Security Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Architecture Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Asset Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Software Development & Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monitoring & Event Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Infrastructure & Platform Management\"}},{\"type\":\"header\",\"data\":{\"text\":\"Dimension 3: Partners & Suppliers\",\"level\":2}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Financial Management\"}},{\"type\":\"header\",\"data\":{\"text\":\"Dimension 4: Value Streams & Processes\",\"level\":2}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Incident Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Problem Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Request Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Change Enablement\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Level Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Continuity Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Design\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Desk\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Service Validation & Testing\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Deployment Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Release Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Measurement & Reporting\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Risk Management\"}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Management\"}}]",
+ "creation": "2026-08-11 10:15:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "icon": "octicon octicon-dashboard",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "ITIL 4 Master Control",
+ "links": [],
+ "modified": "2026-08-11 10:15:00.000000",
+ "modified_by": "Administrator",
+ "module": "ITIL Master Control",
+ "name": "ITIL 4 Master Control",
+ "number_cards": [
+  {
+   "label": "Overall Health Index",
+   "number_card_name": "Overall Health Index"
+  },
+  {
+   "label": "Active Value Streams",
+   "number_card_name": "Active Value Streams"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "roles": [],
+ "sequence_id": 1,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "label": "Service Value Stream Mapper",
+   "link_to": "service-value-stream-mapper",
+   "type": "Page"
+  },
+  {
+   "color": "Green",
+   "label": "Incident Management",
+   "link_to": "ITIL Practice",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "label": "Problem Management",
+   "link_to": "ITIL Practice",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "label": "Change Enablement",
+   "link_to": "ITIL Practice",
+   "type": "DocType"
+  }
+ ],
+ "title": "ITIL 4 Master Control"
+}

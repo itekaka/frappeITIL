@@ -1,0 +1,153 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-08-11 10:15:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "stream_name",
+  "is_active",
+  "column_break_1",
+  "owner_user",
+  "section_trigger",
+  "trigger_condition",
+  "column_break_2",
+  "target_outcome",
+  "section_metrics",
+  "total_target_lead_time_hrs",
+  "total_target_process_time_hrs",
+  "column_break_3",
+  "total_target_wait_time_hrs",
+  "target_flow_efficiency",
+  "section_nodes",
+  "nodes",
+  "section_edges",
+  "edges"
+ ],
+ "fields": [
+  {
+   "fieldname": "stream_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Value Stream Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Active Stream",
+   "default": "1"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "owner_user",
+   "fieldtype": "Link",
+   "options": "User",
+   "label": "Stream Owner"
+  },
+  {
+   "fieldname": "section_trigger",
+   "fieldtype": "Section Break",
+   "label": "Trigger & Goal"
+  },
+  {
+   "fieldname": "trigger_condition",
+   "fieldtype": "Small Text",
+   "label": "Trigger / Demand Input"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "target_outcome",
+   "fieldtype": "Small Text",
+   "label": "Target Outcome / Value Delivered"
+  },
+  {
+   "fieldname": "section_metrics",
+   "fieldtype": "Section Break",
+   "label": "Target Efficiency Metrics"
+  },
+  {
+   "fieldname": "total_target_lead_time_hrs",
+   "fieldtype": "Float",
+   "label": "Total Lead Time (hrs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_target_process_time_hrs",
+   "fieldtype": "Float",
+   "label": "Total Process Time (hrs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_target_wait_time_hrs",
+   "fieldtype": "Float",
+   "label": "Total Wait Time (hrs)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "target_flow_efficiency",
+   "fieldtype": "Percent",
+   "label": "Flow Efficiency (%)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_nodes",
+   "fieldtype": "Section Break",
+   "label": "Value Stream Step Nodes"
+  },
+  {
+   "fieldname": "nodes",
+   "fieldtype": "Table",
+   "options": "ITIL Value Stream Node",
+   "label": "Nodes"
+  },
+  {
+   "fieldname": "section_edges",
+   "fieldtype": "Section Break",
+   "label": "Value Stream Connections & Workflow Edges"
+  },
+  {
+   "fieldname": "edges",
+   "fieldtype": "Table",
+   "options": "ITIL Value Stream Edge",
+   "label": "Edges"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-11 10:15:00.000000",
+ "modified_by": "Administrator",
+ "module": "ITIL Master Control",
+ "name": "ITIL Value Stream Definition",
+ "naming_rule": "By fieldname",
+ "autoname": "field:stream_name",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

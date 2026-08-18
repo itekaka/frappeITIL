@@ -1,0 +1,134 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-08-11 10:15:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "practice_name",
+  "dimension",
+  "health_score",
+  "trend_direction",
+  "column_break_1",
+  "icon",
+  "practice_owner",
+  "doctype_reference",
+  "section_metrics",
+  "sla_compliance_pct",
+  "open_items_count",
+  "last_calculated",
+  "section_desc",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "practice_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Practice Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dimension",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "options": "Organizations & People\nInformation & Technology\nPartners & Suppliers\nValue Streams & Processes",
+   "label": "ITIL Dimension",
+   "reqd": 1
+  },
+  {
+   "fieldname": "health_score",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Health Score (%)",
+   "default": "100.0"
+  },
+  {
+   "fieldname": "trend_direction",
+   "fieldtype": "Select",
+   "options": "Improving\nStable\nDeclining",
+   "label": "Trend Direction",
+   "default": "Stable"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Data",
+   "label": "Widget Icon Class",
+   "default": "octicon octicon-checklist"
+  },
+  {
+   "fieldname": "practice_owner",
+   "fieldtype": "Link",
+   "options": "User",
+   "label": "Practice Owner"
+  },
+  {
+   "fieldname": "doctype_reference",
+   "fieldtype": "Data",
+   "label": "Primary Target DocType"
+  },
+  {
+   "fieldname": "section_metrics",
+   "fieldtype": "Section Break",
+   "label": "Operational Metrics"
+  },
+  {
+   "fieldname": "sla_compliance_pct",
+   "fieldtype": "Float",
+   "label": "SLA Compliance (%)",
+   "default": "95.0"
+  },
+  {
+   "fieldname": "open_items_count",
+   "fieldtype": "Int",
+   "label": "Open Backlog Count",
+   "default": "0"
+  },
+  {
+   "fieldname": "last_calculated",
+   "fieldtype": "Datetime",
+   "label": "Last Recalculated At",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_desc",
+   "fieldtype": "Section Break",
+   "label": "Description & Scope"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Practice Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-11 10:15:00.000000",
+ "modified_by": "Administrator",
+ "module": "ITIL Master Control",
+ "name": "ITIL Practice",
+ "naming_rule": "By fieldname",
+ "autoname": "field:practice_name",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

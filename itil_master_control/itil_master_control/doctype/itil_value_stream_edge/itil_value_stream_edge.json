@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-08-11 10:15:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "source_node_id",
+  "target_node_id",
+  "edge_label",
+  "auto_trigger_action"
+ ],
+ "fields": [
+  {
+   "fieldname": "source_node_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Source Node ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "target_node_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Target Node ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "edge_label",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Transition Label"
+  },
+  {
+   "fieldname": "auto_trigger_action",
+   "fieldtype": "Data",
+   "label": "Automated Action Trigger"
+  }
+ ],
+ "istable": 1,
+ "modified": "2026-08-11 10:15:00.000000",
+ "modified_by": "Administrator",
+ "module": "ITIL Master Control",
+ "name": "ITIL Value Stream Edge",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

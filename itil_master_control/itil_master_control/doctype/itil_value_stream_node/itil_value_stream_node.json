@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-08-11 10:15:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "node_id",
+  "step_name",
+  "practice",
+  "practice_doctype",
+  "column_break_1",
+  "target_process_time_hrs",
+  "target_wait_time_hrs",
+  "avg_actual_lead_time",
+  "pos_x",
+  "pos_y"
+ ],
+ "fields": [
+  {
+   "fieldname": "node_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Node ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "step_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Step / Activity Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "practice",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "options": "ITIL Practice",
+   "label": "Linked Practice"
+  },
+  {
+   "fieldname": "practice_doctype",
+   "fieldtype": "Data",
+   "label": "Target Practice DocType"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "target_process_time_hrs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Target Process Time (hrs)",
+   "default": "1.0"
+  },
+  {
+   "fieldname": "target_wait_time_hrs",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Target Wait Time (hrs)",
+   "default": "0.5"
+  },
+  {
+   "fieldname": "avg_actual_lead_time",
+   "fieldtype": "Float",
+   "label": "Avg Actual Lead Time (hrs)"
+  },
+  {
+   "fieldname": "pos_x",
+   "fieldtype": "Int",
+   "label": "Canvas Pos X",
+   "default": "100"
+  },
+  {
+   "fieldname": "pos_y",
+   "fieldtype": "Int",
+   "label": "Canvas Pos Y",
+   "default": "100"
+  }
+ ],
+ "istable": 1,
+ "modified": "2026-08-11 10:15:00.000000",
+ "modified_by": "Administrator",
+ "module": "ITIL Master Control",
+ "name": "ITIL Value Stream Node",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

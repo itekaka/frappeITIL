@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-08-11 11:50:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "problem_title",
+  "status",
+  "column_break_1",
+  "known_error_status",
+  "section_rca",
+  "root_cause",
+  "section_resolution",
+  "resolution_plan"
+ ],
+ "fields": [
+  {
+   "fieldname": "problem_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Problem Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nUnder Investigation\nKnown Error Identified\nResolved",
+   "default": "Open"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "known_error_status",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Known Error Identified"
+  },
+  {
+   "fieldname": "section_rca",
+   "fieldtype": "Section Break",
+   "label": "Root Cause Analysis (RCA)"
+  },
+  {
+   "fieldname": "root_cause",
+   "fieldtype": "Small Text",
+   "label": "Root Cause Details"
+  },
+  {
+   "fieldname": "section_resolution",
+   "fieldtype": "Section Break",
+   "label": "Resolution & Workaround Plan"
+  },
+  {
+   "fieldname": "resolution_plan",
+   "fieldtype": "Text",
+   "label": "Resolution Plan"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-11 11:50:00.000000",
+ "modified_by": "Administrator",
+ "module": "Problem Management",
+ "name": "ITIL Problem",
+ "naming_rule": "Expression",
+ "autoname": "PRB-.#####",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
